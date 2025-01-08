@@ -14,8 +14,8 @@ const URLInputBox: React.FC<URLInputBoxProps> = ({ onSubmit, isValid }) => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault(); // Prevent default form submission
-    onSubmit(url);  // Call the parent submit handler
+    e.preventDefault();
+    onSubmit(url);
   };
 
   return (

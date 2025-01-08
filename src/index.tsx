@@ -5,7 +5,7 @@ import { ThemeProvider, CssBaseline } from '@mui/material';
 import App from './App';
 import HomePage from './pages/HomePage';
 import theme from './theme';
-import './index.css'; // Ensure global CSS is imported last.
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
